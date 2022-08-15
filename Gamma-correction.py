@@ -14,11 +14,11 @@ def gammaCorrection(image, gamma):
   
 img = cv2.imread(path)
 gamma_corrected = gammaCorrection(img, 0.1)
-cv2.imwrite("C:/Users/dell/Desktop/Project/images/Results/Image(1)_for different gammas/Image(1).jpg" ,gamma_corrected)
+cv2.imwrite(".../Image(1).jpg" ,gamma_corrected)
 gamma_corrected2 = gammaCorrection(img, 0.3)
-cv2.imwrite("C:/Users/dell/Desktop/Project/images/Results/Image(1)_for different gammas/Image(2).jpg" ,gamma_corrected2)
+cv2.imwrite(".../Image(2).jpg" ,gamma_corrected2)
 gamma_corrected3 = gammaCorrection(img, 0.6)
-cv2.imwrite("C:/Users/dell/Desktop/Project/images/Results/Image(1)_for different gammas/Image(3).jpg" ,gamma_corrected3)
+cv2.imwrite(".../Image(3).jpg" ,gamma_corrected3)
  
 # cv2.imshow('Before gamma correction', img)
 # cv2.imshow('After gamma correction', gamma_corrected)
