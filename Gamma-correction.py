@@ -3,7 +3,7 @@ from email.mime import image
 import cv2
 import numpy as np
  
-path= ('C:/Users/dell/Desktop/Project/images/image1.jpg')
+path= ('.../image.jpg')
 i=0
 def gammaCorrection(image, gamma):
     i=+1
